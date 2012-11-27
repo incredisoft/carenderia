@@ -1,0 +1,84 @@
+*{ margin: 0; padding: 0; }
+
+body{ width: 100%; font-family: Arial,Verdana,sans-serif; font-size: 13px; background: #eba915; color: #000; }
+
+a{ text-decoration: none; color: #fff; }
+a:hover{ text-decoration: underline; }
+
+p{ text-align: justify; text-indent: 10px; }
+#wrapper{ margin: 10px auto; padding: 5px; width: 960px; min-height: 450px; position:relative; }
+
+/***   header   ***/
+#header_bk { background: url(../images/header_bk.png) top center repeat-x; margin-top:-20px; z-index:19;}
+#header_white { background: url(../images/header_background.png); z-index:20;
+				 background-size: 960px 200px; width:960px; height:200px;}
+#header{ min-height: 150px; position: relative; border-bottom: 0px solid #000;}
+#title{ position: absolute; top: 30px; left: 0px; background: }
+#etc{ position: absolute; top: 30px; right:65px; color:#fff; }
+#socialmedia-div{ position: absolute; right: 20px; width: 80px; min-height: 35px;  top:206px;}
+#socialmedia-div ul li{ list-style-type: none; list-style: none; display: inline-block; cursor: pointer; }
+#fb{ background: url(../images/socialmedia/facebook_dark.png) no-repeat; width: 35px; height:32px; }
+#tw{ background: url(../images/socialmedia/twitter02_dark.png) no-repeat; width: 35px; height:32px; }
+#fb:hover{ background: url(../images/socialmedia/facebook_active.png) no-repeat; width: 35px; height:32px; }
+#tw:hover{ background: url(../images/socialmedia/twitter02_active.png) no-repeat; width: 35px; height:32px; }
+
+
+/***   body   ***/
+#body{ background: #fdefca; height:555px;}
+.content{ padding: 5px; }
+.menu-cell{ position: relative; }
+.menu-heading{ font-size: 18px; background: rgba(0,0,0, 0.6);  padding: 10px; position: absolute; }
+.menu-heading:hover{ font-size: 18px; background: gray;  padding: 10px; position: absolute; cursor: pointer;}
+
+#left_order{ position:absolute; width:590px;  height:500px; border: 0px solid #000; margin-left:4px; top:250px;background: #FF5E29;
+			border-radius:.9em; -moz-border-radius:.9em; -webkit-border-radius:.9em;}
+#right_order{ position:absolute; border: 0px solid #000; width:335px; height:500px; top:250px; background: #FF5E29;
+			margin-left:610px; border-radius:.9em; -moz-border-radius:.9em; -webkit-border-radius:.9em; 
+}}
+
+
+/***  order  ***/
+.order-inner-div{ padding: 10px; }
+.order-title{ padding: 10px; font-size: 15px; border-bottom: 40px solid #660000; font-weight: bold; }
+#order-menu-div{ width: 588px; background-color:#; font-size:13px; margin-top:-30px; padding-bottom:10px;}
+.menu-list{ list-style-type: none; list-style: none; width: 90%; margin: 0 auto; font-size: 15px; font-weight: bold; }
+.menu-list li{ display: inline; }
+.menu-list li a{ padding: 5px 10px; margin: 10px auto; }
+.menu-list li a:hover{ background: #800000; color: #fff;  text-decoration:none;}
+#menu{ margin: 15px 10px; width: 97%; height: 400px; overflow: scroll; overflow-x: hidden; overflow-y: auto; border: 0px solid #000; background-color:#FF3300; }
+#menu-table tr td:hover{ opacity:0.4; cursor: pointer; }
+#menu-table  td{background-color:#000; color:#fff; }
+#bill-div{ height: 300px; overflow: scroll; overflow-x: hidden; overflow-y: auto; }
+#order-option-content{ position: relative; padding: 10px; }
+#order-desc{ position: absolute; top: 10px; left: 250px; }
+#order-qty-div{ position: absolute; top: 90px; left: 250px; }
+#button-div{ position: absolute; bottom: 10px; left: 90px;  }
+#btnProceed{ padding: 15px 50px; }
+#total-div{ padding: 5px 10px; }
+
+
+
+/***   footer   ***/
+#footer_bk { background: url(../images/header_bk.png) bottom repeat-x;  margin-bottom:-20px; }
+#footer{ width: 98.5%; height: 200px; padding: 7.5px; border-top: 0px solid #000; background-color:#fdefca; }
+#about-us{ width: 700px; padding: 10px; }
+#footer-menu{ margin: 5px; text-align: center;}
+#footer-menu ul{ list-style: none; list-style-type: none; }
+#footer-menu ul li{ padding: 10px; display: inline; }
+#footer-menu ul li a{  }
+#facebook-div{ position: absolute; bottom: 150px; left: 730px; }
+
+
+/***   infowindow.js   ***/
+#info-div{ position: relative; }
+#info-div images{ position: absolute; top: 20px; left: 5px; }
+#info-div div{ position: absolute; top: 10px; left: 50px; text-align: justify; padding-right: 10px; }
+#info-div span{ position: absolute; bottom: 0; left: 2px; font-size: 10px; }
+
+
+/***   misc   ***/
+/* Old-school clear fix hack to clear the floats: */
+.clear{ clear:both; height:1px; overflow:hidden; }
+.rounded-corners { -moz-border-radius: 20px; -webkit-border-radius: 20px; -khtml-border-radius: 20px; border-radius: 20px; 
+				behavior: url(border-radius.htc); border-radius: 20px; }
+.hidden{ display: none; }
